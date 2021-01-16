@@ -1,0 +1,20 @@
+{
+  "name": "digite_farmer_app",
+  "version": "1.0.0",
+  "description": "open_layer_farmer_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Soniya_Sankpal",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.3",
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
